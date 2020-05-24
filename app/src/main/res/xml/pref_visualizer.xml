@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--呈現在設定中的layout-->
+
+    <ListPreference
+        android:key="@string/pref_color_key"
+        android:title="@string/pref_color_label"
+        android:defaultValue="@string/pref_color_value_blue"
+        android:entries="@array/pref_color_option_label"
+        android:entryValues="@array/pref_color_option_values"/>
+
+</PreferenceScreen>
